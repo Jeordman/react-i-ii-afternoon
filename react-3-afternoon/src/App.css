@@ -1,0 +1,10 @@
+.App {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Cuprum&display=swap")
+
