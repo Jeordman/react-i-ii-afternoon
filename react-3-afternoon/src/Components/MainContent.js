@@ -16,15 +16,15 @@ class MainContent extends Component {
 
   handleNext() {
     if (this.state.i >= 24) {
-      return;
+      this.setState({ i: this.state.i = 0})
     } else if (this.state.i >= 0) {
       this.setState({ i: this.state.i + 1 });
     }
   }
 
   handlePrev() {
-    if (this.state.i <= -0) {
-      return;
+    if (this.state.i <= 0) {
+      this.setState({ i: this.state.i = 24})
     } else if (this.state.i >= 0) {
       this.setState({ i: this.state.i - 1 });
     }
